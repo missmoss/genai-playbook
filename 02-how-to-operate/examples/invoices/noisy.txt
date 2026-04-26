@@ -1,0 +1,24 @@
+lNVOlCE
+
+Vend0r: T3chStream So1utions LLC
+Inv0ice #: TS-20Z6-1189
+Dat3: Febuary 28, 2O26
+
+Bil1 To:
+Northpark Data Svcs
+88O1 Conn3ctivity Dr
+San Jos3, CA 9S128
+
+Itens:
+  Servr rack mount kit (1U)          x4    $23O.OO
+  Cat6a patch cab1es (1Oft, 50pk)    x2    $ll5.5O
+  UPS battery backup 15OOvA         x1    $689.0O
+
+Subt0tal: $l,380.00
+Tax (9.25%): $l27.65
+5hipping: $45.OO
+
+Tota1 Due: $l,552.65 US0
+
+Payrnent Terrns: Net 45
+Due 0ate: Apri1 14, 20Z6

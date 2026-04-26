@@ -1,0 +1,24 @@
+INVOICE
+
+Vendor: Lakewood Supply Co.
+Invoice #: LS-2026-0472
+Date: March 15, 2026
+
+Bill To:
+Greenfield Manufacturing Inc.
+4200 Industrial Blvd, Suite 300
+Portland, OR 97201
+
+Items:
+  Industrial adhesive (case of 24)    x2    $189.00
+  Safety goggles (box of 50)          x1     $74.50
+  Nitrile gloves (box of 100)         x3     $41.25
+
+Subtotal: $616.25
+Tax (8.5%): $52.38
+Shipping: $18.00
+
+Total Due: $686.63 USD
+
+Payment Terms: Net 30
+Due Date: April 14, 2026

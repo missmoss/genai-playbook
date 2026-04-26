@@ -1,0 +1,26 @@
+INVOICE
+
+Vendor: Park & Ellis Partners
+Invoice No.: PE-26-3301
+Date: 04/06/2026
+
+Client:
+Meridian Health Group
+1200 Wellness Way
+Austin, TX 78701
+
+Services Rendered:
+  Compliance audit (Phase 1)                    $8,500.00
+  Risk assessment report                        $3,200.00
+  Staff training sessions (2x half-day)         $4,100.00
+
+Subtotal: $15,800.00
+Discount (early engagement): -$1,200.00
+Adjusted subtotal: $14,600.00
+Tax: $1,168.00
+
+Total: $15,768.00
+Amount previously paid: $5,000.00
+Balance due: $10,768.00
+
+Terms: Due upon receipt
