@@ -8,7 +8,26 @@ Your job is not to "ask better questions." It's to narrow the space until AI can
 
 This chapter covers how. If it had a one-line summary, it would be: **AI application design starts with I/O design** — control what goes in, specify what comes out. Everything below is a specific instance of this idea.
 
-We'll start with principles you can test in chat, then apply them to an API use case. The reason both work the same way: chat is just a wrapper that your model provider built around the same API. Your "first message" is a system prompt. Your "output format" is a response schema. If you can do it in chat, you can code it into a system.
+We'll start with principles you can test in chat, then apply them to an API use case. The reason both work the same way is that chat and the API are the same thing — chat is just a UI that your model provider built on top of the API.
+
+---
+
+## Chat is a UI. The API is what's underneath.
+
+Every element of the chat experience has a direct counterpart in the API:
+
+| What you see in chat | What it is in the API |
+|---|---|
+| The invisible instructions that shape AI's behavior (ChatGPT's "Custom Instructions," Claude's "System Prompt" setting) | `system` message — sent before every conversation, sets the AI's role and constraints |
+| Your first message | `user` message — the input the model responds to |
+| AI's reply | `assistant` message — the model's generated output |
+| The conversation history above your current message | An array of previous `user` and `assistant` messages, sent with every request |
+| "Reply in JSON" or structured output toggles | `response_format` — a schema that constrains the output structure |
+| Adjusting "creativity" or "temperature" sliders | `temperature` parameter — controls how much randomness the model uses when sampling |
+
+Why does this matter? Because when you learn to use AI effectively in chat — giving clear instructions, structuring your input, specifying your output format — you're already learning API design. The only difference is that in chat, you do it manually every time. In the API, you write it once and it runs automatically.
+
+This is the bridge from "I can use AI" to "I can build with AI." Every principle in this chapter works in both contexts. We'll start in chat because it's faster to experiment, then show the same ideas as code.
 
 ---
 
