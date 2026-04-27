@@ -16,6 +16,26 @@ This is not an awesome-list. Not an API tutorial. Not a prompt template collecti
 
 Engineers who are building (or about to build) applications that use AI. You don't need ML background. You do need to be comfortable reading code.
 
+## What this covers
+
+An **AI application** is software that calls a model provider's API — Anthropic, OpenAI, Google, etc. — to do work. You write the code that decides what goes into the model and what happens with what comes out. The model itself is someone else's problem.
+
+**Your job:**
+- Designing inputs (prompts, context, retrieval) that produce reliable outputs
+- Validating and routing outputs (structured extraction, confidence checks, fallback logic)
+- Building pipelines that chain these steps into a system (RAG, agents, orchestration)
+- Measuring whether the system actually works (evaluation, cost, latency)
+
+**Not your job:**
+- Training or fine-tuning models
+- Hosting models or managing GPUs
+- Building ML data pipelines (labeling, feature stores, training loops)
+- Model selection beyond choosing which API to call
+
+The AI field grew out of ML research, so most educational material covers both sides without marking the boundary. Here's a rough way to tell them apart: **ML engineering** is about building models — training data, model architecture, GPUs, deployment infrastructure. **AI application engineering** is about using models — designing the inputs, handling the outputs, and building reliable systems on top of an API you don't control. This guide covers the second one.
+
+If you've ever wondered "do I need to understand transformers / attention / tokenization / RLHF to build with AI?" — no. You need to understand what the API gives you, where it breaks, and how to design around it.
+
 ## Chapters
 
 | # | Title | Status |
