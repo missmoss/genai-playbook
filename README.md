@@ -40,15 +40,14 @@ If you've ever wondered "do I need to understand transformers / attention / toke
 
 | # | Title | Status |
 |---|-------|--------|
-| 01 | [You're Not Talking to AI. You're Configuring a Probability Engine.](01-not-a-conversation/) | 🚧 Draft |
-| 02 | [OK, It's a Probability Engine. So What?](02-how-to-operate/) | 🚧 Draft |
-| 03 | Context Ownership | 🔜 Coming |
-| 04 | RAG: Retrieval | 🔜 Coming |
-| 05 | RAG: Generation | 🔜 Coming |
-| 06 | Evaluation | 🔜 Coming |
-| 07 | Cost & Latency | 🔜 Coming |
-| 08 | Orchestration & Agents | 🔜 Coming |
-| 09 | Guardrails & Safety | 🔜 Coming |
+| 01 | [You're Not Talking to AI. You're Configuring a Probability Engine.](01-not-a-conversation/) | 🟡 Preview |
+| 02 | [OK, It's a Probability Engine. So What?](02-how-to-operate/) | 🟡 Preview |
+| 03 | [Context Ownership](03-context-ownership/) | 🔜 Coming |
+| 04 | [RAG](04-rag/) | 🟡 Preview |
+| 05 | Evaluation | 🔜 Coming |
+| 06 | Cost & Latency | 🔜 Coming |
+| 07 | Orchestration & Agents | 🔜 Coming |
+| 08 | Guardrails & Safety | 🔜 Coming |
 
 ## Core ideas
 
